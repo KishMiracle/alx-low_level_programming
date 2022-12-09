@@ -1,0 +1,1 @@
+My variable in C
