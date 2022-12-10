@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 /**
-* imain -Entry Hex
-* Return: always 0 (success)
+* main -Prints all possible different combinations of three digits.
+*  Return: always 0 (success)
 */
 int main(void)/* The main function*/
 {
