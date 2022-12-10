@@ -5,26 +5,27 @@
 * imain -Entry Hex
 * Return: always 0 (success)
 */
-
 int main(void)
 {
-
-	int s1;
-	int s2;
-
-	s1 = 0;
-	s2 = 1;
-
-	if (s1 < s2)
+	int ones = '0';
+	int tens = '0';
+	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 	{
-		putchar(s1);
-		putchar(s2);
+		for (ones = '0'; ones <= '9'; ones++)/*prints ones digit*/
+		{
+			if (!((ones == tens) || (tens > ones)))/*eliminates repetition*/
+			{
+				putchar(tens);
+				putchar(ones);
+				if (!(ones == '9' && tens == '8'))/*adds comma and space*/
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
-	if (s2 < s1)
-	{
-		putchar(s2);
-		putchar(s1);
-	}
-	putchar('\n');
-	return (0);
+}
+putchar('\n');
+return (0);
 }
