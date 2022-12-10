@@ -5,7 +5,7 @@
 * imain -Entry Hex
 * Return: always 0 (success)
 */
-int main(void)
+int main(void)/* The main function*/
 {
 	int ones = '0';
 	int tens = '0';
