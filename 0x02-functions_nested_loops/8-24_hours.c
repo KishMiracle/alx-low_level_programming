@@ -7,7 +7,7 @@ void jack_bauer(void)
 {
 	int a, b;
 
-	for (i = 0; i <= 23; i++)
+	for (a = 0; a <= 23; a++)
 	{
 		for (b = 0; b <= 59; b++)
 		{
