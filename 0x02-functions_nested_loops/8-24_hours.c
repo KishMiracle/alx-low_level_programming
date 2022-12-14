@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* print_1hr - Print the HH:MM format for one hour.
-* @hour: The hour to display with its minutes.
+* jack_bauer - prints every minute of the day
+*
+* Return: Always 0
 */
-void jack_bauer(void)/* print time */
+void jack_bauer(void)
 {
 	int a, b;
 
