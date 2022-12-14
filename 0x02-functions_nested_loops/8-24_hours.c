@@ -3,7 +3,7 @@
 * print_1hr - Print the HH:MM format for one hour.
 * @hour: The hour to display with its minutes.
 */
-void jack_bauer(void)
+void jack_bauer(void)/* print time */
 {
 	int a, b;
 
