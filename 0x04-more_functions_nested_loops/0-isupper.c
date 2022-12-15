@@ -1,4 +1,3 @@
-
 /**
 * isupper - checks for uppercase character
 * @c: The charactere to check.
