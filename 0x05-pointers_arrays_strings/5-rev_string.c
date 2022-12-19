@@ -29,7 +29,7 @@ int _strlen(char *s)
 void permut(char *arr, int i, int j)
 {
 	char tmp;
-	
+
 	tmp = arr[i];
 	arr[i] = arr[j];
 	arr[j] = tmp;
