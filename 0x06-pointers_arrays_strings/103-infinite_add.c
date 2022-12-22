@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * rev_string - reverse array
- * @n: integer params
- * Return: 0
- */
+* rev_string - reverse array
+* @n: integer params
+* Return: 0
+*/
 
 void rev_string(char *n)
 {
@@ -26,15 +26,15 @@ void rev_string(char *n)
 	}
 }
 /**
- * infinite_add - Adds two numbers.
- * @n1: The first number to be added.
- * @n2: The second number to be added.
- * @r: The buffer to store the result.
- * @size_r: The buffer size.
- * Return: If r can store the sum 
- * - a pointer to the result.
- * If r cannot store the sum - 0.
- */
+* infinite_add - Adds two numbers.
+* @n1: The first number to be added.
+* @n2: The second number to be added.
+* @r: The buffer to store the result.
+* @size_r: The buffer size.
+* Return: If r can store the sum 
+* - a pointer to the result.
+* If r cannot store the sum - 0.
+*/
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int overflow = 0, i = 0, j = 0, digits = 0;
