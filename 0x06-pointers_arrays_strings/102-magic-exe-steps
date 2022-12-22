@@ -1,0 +1,18 @@
+For exercise 102-magic.c
+Please Kindly compile the code if not it will not pass
+
+use code below on the terminal:
+
+1562563jiudj:/alx-low_level_programming/0x06-pointer
+s_arrays_strings# gcc -Wall -pedantic -Werror -Wextra -std=gnu89 102-magic.c -o 102-magic
+
+then run:
+
+1562563jiudj:/alx-low_level_programming/0x06-pointer
+
+s_arrays_strings# ./102-magic
+
+your anwers is going to be
+
+1562563jiudj:/alx-low_level_programming/0x06-pointers_arrays_strings# a[2] = 98;
+
