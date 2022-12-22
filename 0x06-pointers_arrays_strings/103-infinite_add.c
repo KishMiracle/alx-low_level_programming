@@ -31,7 +31,7 @@ void rev_string(char *n)
 * @n2: The second number to be added.
 * @r: The buffer to store the result.
 * @size_r: The buffer size.
-* Return: If r can store the sum 
+* Return: If r can store the sum
 * - a pointer to the result.
 * If r cannot store the sum - 0.
 */
