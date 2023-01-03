@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - Locates the first occurance
+ * _strspn - Locates the first occurance
  * of a character in a string.
  * @s: The string.
  * @accept: pointer to search prefix phrase
@@ -16,7 +16,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (index = 0; s[index]; index++)
 	{
-		for (num = 0; accept[num] != '\0'; num++)
+		for (num = 0; accept[num]; num++)
 		{
 			check = 0;
 			if (accept[num] == s[index])
