@@ -9,17 +9,28 @@
  * NULL otherwise.
  */
 
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-	int index = 0;
-	char tmp;
-	char *res = 0;
+	unsigned int index, num, value, check;
+	
+	value = 0;
+	
+	for (index = 0; s[index] != '\0'; index++)
+	{
+		check = 0;
 
-	do {
-		tmp = s[index];
-		if (tmp == c)
-			res = s + index;
-		index++;
-	} while (res == 0 && tmp != '\0');
-	return (res);
+		for (num = 0; accept[num] != '\0'; num++)
+		{
+			if (accept[num] == s[index])
+			{
+				value++;
+				check = 1;
+			}
+		}
+		if (check == 0)
+		{
+			break;
+		}
+	}
+	return (0);
 }
