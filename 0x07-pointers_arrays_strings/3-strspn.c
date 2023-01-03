@@ -14,16 +14,16 @@ unsigned int _strspn(char *s, char *accept)
 
 	value = 0;
 
-	for (index = 0; s[index] != '\0'; index++)
+	for (index = 0; s[index]; index++)
 	{
-		check = 0;
-
 		for (num = 0; accept[num] != '\0'; num++)
 		{
+			check = 0;
 			if (accept[num] == s[index])
 			{
 				value++;
 				check = 1;
+				break;
 			}
 		}
 		if (check == 0)
@@ -31,5 +31,5 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		}
 	}
-	return (0);
+	return (num);
 }
