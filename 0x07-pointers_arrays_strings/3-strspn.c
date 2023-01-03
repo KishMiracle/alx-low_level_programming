@@ -4,14 +4,13 @@
  * _strchr - Locates the first occurance
  * of a character in a string.
  * @s: The string.
- * @c: The character to locate.
- * Return: A pointer to the first occurrence if case it is found
- * NULL otherwise.
+ * @accept: pointer to search prefix phrase
+ * Return: number of bytes in initial segment of s
  */
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int index, num, value, check;
+	int index, num, value, check;
 
 	value = 0;
 
