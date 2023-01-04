@@ -18,6 +18,7 @@ int _my_sqrt(int num, int root)
 }
 /**
  * _sqrt_recursion - returns the natural square root of a number
+ * @num: The number to find the square root of.
  * Return: square root of n else -1
  */
 
