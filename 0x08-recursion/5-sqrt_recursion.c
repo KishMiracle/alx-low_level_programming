@@ -21,9 +21,9 @@ int _my_sqrt(int num, int root)
  * Return: square root of n else -1
  */
 
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int num)
 {
-	if (n < 0)
+	if (num < 0)
 		return (-1);
-	return (_my_sqrt(n, 1));
+	return (_my_sqrt(num, 1));
 }
