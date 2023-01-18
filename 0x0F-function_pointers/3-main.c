@@ -1,14 +1,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "3-calc.h"
-
 /**
  * main - program that performs simple operations
  * @argc: number of arguments passed
  * @argv: array of arguments passed
  *  Return: solution of the operation
  */
-
 int main(int argc, char *argv[])
 {
 	int a, b;
